@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Models and data
+models/*
+!models/.gitkeep
+data/
+datasets/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.onnx
